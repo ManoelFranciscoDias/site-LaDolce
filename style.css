@@ -263,14 +263,14 @@ section.slider{
 }
 
 .heading span {
-  color: #000000;
+  color: #555555;
   text-transform: uppercase;
 }
 
 .about .row {
   display: flex;
   align-items: center;
-  background-color: #000000;
+  background-color: pink;
   flex-wrap: wrap;
 }
 
@@ -290,12 +290,12 @@ section.slider{
 
 .about .row .content h3 {
   font-size: 3rem;
-  color: #fff;
+  color: #4d3838;
 }
 
 .about .row .content p {
   font-size: 1.6rem;
-  color: #fff;
+  color: #4d3838;
   padding: 1rem 0;
   line-height: 1.8;
 }
