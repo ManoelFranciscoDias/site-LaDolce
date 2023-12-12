@@ -269,6 +269,8 @@ section.slider {
   text-transform: uppercase;
 }
 
+/* ABOUT */
+
 .about .row {
   display: flex;
   align-items: center;
@@ -300,6 +302,8 @@ section.slider {
   padding: 1rem 0;
   line-height: 1.8;
 }
+
+/* MENU */
 
 .menu .box-container {
   display: grid;
@@ -341,12 +345,12 @@ section.slider {
   background: #533c3c;
 }
 
+/* PRODUCTS */
+
 .products .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
-  
-  
 }
 
 .products .box-container .box {
@@ -378,7 +382,64 @@ section.slider {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
-
-
 }
 
+/* CONTACT */
+
+.contact .row {
+  display: flex;
+  background: pink;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border: 5px solid black;
+}
+
+.contact .row form .inputBox span {
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+  color: #000000;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: none;
+  border: none;
+  color: #000000;
+}
+
+.btn {
+  padding: 2rem;
+  background-color: #4d3838;
+  color: #fff;
+  
+}
