@@ -345,13 +345,15 @@ section.slider {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  
+  
 }
 
-.products .box-container.box {
+.products .box-container .box {
   text-align: center;
   border: 5px solid black;
   padding: 2rem;
-  background-color: #000000;
+  background: pink;
 }
 
 .products .box-container .box .image {
@@ -368,7 +370,7 @@ section.slider {
 }
 
 .products .box-container .box .content .price {
-  color: #fff;
+  color: #000000;
   font-size: 2.5rem;
 }
 
