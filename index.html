@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>La Dolce</title>
     <link
       rel="stylesheet"
@@ -21,11 +22,15 @@
       </a>
 
       <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#about">Sobre</a>
-        <a href="#menu">Menu</a>
-        <a href="#products">Produtos</a>
-        <a href="#contact">Contato</a>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li> <a href="#products">Produtos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      
       </nav>
       <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
@@ -82,7 +87,7 @@
           <img src="img/sobre.png" alt="" />
         </div>
         <div class="content">
-          <h3>O que torna nosso sorvete especial?</h3>
+          <h2>O que torna nosso sorvete especial?</h2>
           <p>
             Olá, queridos apreciadores de delícias geladas! Sou a Sorveteria La
             Dolce, e estou aqui para compartilhar com vocês o que torna os
@@ -195,7 +200,9 @@
         ></iframe>
 
         <form action="#">
-          <h3>ENTRAR EM CONTATO</h3>
+          <fieldset>
+            <legend>ENTRAR EM CONTATO</legend>
+          
           <div class="inputBox">
             <span class="fas fa-user"></span>
             <input type="text" placeholder="name" />
@@ -207,8 +214,19 @@
           <div class="inputBox">
             <span class="fas fa-phone"></span>
             <input type="number" placeholder="number" />
+
+          </div>
+          <div>
+            <input type="checkbox" id="masculino" name="masculino" checked />
+            <labe class="checkbox" for="scales">masculino</label>
+          </div>
+        
+          <div>
+            <input   type="checkbox" id="feminino" name="feminino" />
+            <label class="checkbox" for="horns">feminino</label>
           </div>
           <input type="submit" value="contact now" class="btn" />
+        </fieldset>
         </form>
       </div>
     </section>
